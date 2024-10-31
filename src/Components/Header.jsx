@@ -10,7 +10,7 @@ export default function Header() {
   };
 
   return (
-    <header className="flex justify-between items-center p-5 bg-pink-700 relative">
+    <header className="flex justify-between items-center p-5 bg-pink-700 sticky">
       <h1 className="text-3xl md:text-4xl font-bold text-white ml-5" style={{ fontFamily: 'Dancing Script, cursive', fontStyle: 'italic' }}>
         Priya Acharjee
       </h1>
