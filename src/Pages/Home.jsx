@@ -1,4 +1,5 @@
 import React from "react";
+import { useRef } from "react";
 import Footer from "../Components/Footer";
 import AnimatedEmojis from "../Components/AnimatedEmojis";
 export default function Home() {
@@ -22,6 +23,14 @@ export default function Home() {
 
   ];
 
+  const inputRef = useRef(null);
+
+  const handleSubmit = () => {
+    alert("Your message is sent!");
+    if (inputRef.current) {
+      inputRef.current.value = ""; 
+    }
+  };
 
   return (
     <>
@@ -176,7 +185,7 @@ export default function Home() {
             <img
               src="/Images/FoodHome.png"
               alt="Project illustration 1"
-              className="mb-6 rounded object-cover h-48 w-full" // Ensure responsive image
+              className="mb-6 rounded object-cover h-48 w-full"
             />
             <h3 className="text-xl font-semibold text-pink-800">Bon Appetite</h3>
             <p className="text-gray-500 font-medium mt-2">Online Food Delivery Website using MERN Stack</p>
@@ -197,7 +206,7 @@ export default function Home() {
             <img
               src="/Images/weather.png"
               alt="Project illustration 2"
-              className="mb-6 rounded object-cover h-48 w-full" // Ensure responsive image
+              className="mb-6 rounded object-cover h-48 w-full" 
             />
             <h3 className="text-xl font-semibold text-pink-800">Weathering</h3>
             <p className="text-gray-500 font-medium mt-2">A live Weather updating website</p>
@@ -216,7 +225,7 @@ export default function Home() {
             <img
               src="/Images/eventek.png"
               alt="Project illustration 3"
-              className="mb-6 rounded object-cover h-48 w-full" // Ensure responsive image
+              className="mb-6 rounded object-cover h-48 w-full" 
             />
             <h3 className="text-xl font-semibold text-pink-800">Eventek</h3>
             <p className="text-gray-500 font-medium mt-2">Online Event Management Website</p>
@@ -282,15 +291,16 @@ export default function Home() {
           <h1 className="text-4xl font-bold mt-2" style={{ fontFamily: 'Dancing Script, cursive' }}>Get in Touch</h1>
           <p className="text-lg text-gray-600 mt-4 max-w-xl mx-auto">
             I welcome the opportunity to discuss your web development needs and explore how I can contribute to the
-            success of your project. Feel free to reach out to me using the contact form below.
+            success of your project. Feel free to reach out to me using the contact's below.
           </p>
           <div className="mt-6 max-w-md mx-auto">
             <input
               type="text"
+              ref={inputRef}
               placeholder="Send a Message"
               className="border border-gray-300 rounded-l px-4 py-2 w-3/4 focus:outline-none"
             />
-            <button className="bg-pink-500 hover:bg-blue-700 text-white px-4 py-2 rounded-r">
+            <button onClick={handleSubmit} className="bg-pink-500 hover:bg-blue-700 text-white px-4 py-2 rounded-r"id="input">
               Submit
             </button>
           </div>
