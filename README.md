@@ -2,7 +2,7 @@
 
 # About My Portfolio
 
-This is the source code for [Priya Acharjee's Portfolio Website](https://priyaacharjee19.vercel.app/). It serves as an online showcase of my skills, projects, certifications, and contact information, built with React and styled with Tailwind CSS.
+This is the source code for [Priya Acharjee's Portfolio Website](https://priya-portfolio-mu.vercel.app/). It serves as an online showcase of my skills, projects, certifications, and contact information, built with React and styled with Tailwind CSS.
 
 ## Table of Contents
 
