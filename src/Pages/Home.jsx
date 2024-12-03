@@ -1,4 +1,3 @@
-import React from "react";
 import { useRef } from "react";
 import Footer from "../Components/Footer";
 import AnimatedEmojis from "../Components/AnimatedEmojis";
@@ -39,7 +38,7 @@ export default function Home() {
         {/* Randomly Positioned Tech Emojis */}
         <AnimatedEmojis />
         <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-8 mt-[-2rem]">
-          Hey There! I'm <span className="text-4xl" style={{ fontFamily: 'Dancing Script, cursive' }}>Priya</span><br /> Introducing <span className="text-4xl" style={{ fontFamily: 'Dancing Script, cursive' }}>My Portfolio</span>
+          Hey There! I&apos;m <span className="text-4xl" style={{ fontFamily: 'Dancing Script, cursive' }}>Priya</span><br /> Introducing <span className="text-4xl" style={{ fontFamily: 'Dancing Script, cursive' }}>My Portfolio</span>
         </h2>
         <p className="text-gray-600 mb-8">
           Welcome to my online showcase of web development expertise and projects
@@ -136,7 +135,7 @@ export default function Home() {
           </p>
 
           <div className="mt-6 space-y-4">
-            <p className="text-gray-500 font-medium">Let's Connect</p>
+            <p className="text-gray-500 font-medium">Let&apos;s Connect</p>
             <div className="flex flex-col md:flex-row md:space-x-4 space-y-4 md:space-y-0">
               <a
                 href="https://www.linkedin.com/in/priya-acharjee-ba4119228/"
@@ -174,7 +173,7 @@ export default function Home() {
             My Web Development Journey
           </h2>
           <p className="text-gray-600 mt-4 text-base md:text-lg">
-            Dive into my portfolio and explore the diverse web development projects I've undertaken, from building custom websites to developing responsive web applications.
+            Dive into my portfolio and explore the diverse web development projects I&apos;ve undertaken, from building custom websites to developing responsive web applications.
           </p>
         </div>
 
@@ -250,7 +249,7 @@ export default function Home() {
           <h2 className="text-5xl font-bold text-pink-700" style={{ fontFamily: 'Dancing Script, cursive' }}>My Certifications</h2>
           <h1 className="text-4xl font-bold mt-2">Certifications and Accolades</h1>
           <p className="text-lg text-gray-600 mt-4 max-w-2xl mx-auto">
-            Alongside my hands-on web development experience, I've earned a range of industry-recognized certifications
+            Alongside my hands-on web development experience, I&apos;ve earned a range of industry-recognized certifications
             that validate my technical expertise and commitment to continuous learning.
           </p>
         </section>
@@ -291,7 +290,7 @@ export default function Home() {
           <h1 className="text-4xl font-bold mt-2" style={{ fontFamily: 'Dancing Script, cursive' }}>Get in Touch</h1>
           <p className="text-lg text-gray-600 mt-4 max-w-xl mx-auto">
             I welcome the opportunity to discuss your web development needs and explore how I can contribute to the
-            success of your project. Feel free to reach out to me using the contact's below.
+            success of your project. Feel free to reach out to me using the contact&apos;s below.
           </p>
           <div className="mt-6 max-w-md mx-auto">
             <input
