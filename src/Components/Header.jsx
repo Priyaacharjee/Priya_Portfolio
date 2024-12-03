@@ -38,7 +38,7 @@ export default function Header() {
           to="contact"
           smooth={true}
           duration={500}
-          className="bg-blue-700 text-white px-4 py-2 rounded-sm hover:bg-pink-800 cursor-pointer"
+          className="bg-blue-700 text-white px-4 py-2 rounded-md hover:bg-pink-800 cursor-pointer"
         >
           Contact
         </ScrollLink>

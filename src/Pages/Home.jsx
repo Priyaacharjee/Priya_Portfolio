@@ -113,7 +113,7 @@ export default function Home() {
             <img
               src="/Images/My_new_pic.jpg"
               alt="Web developer illustration"
-              className="w-full h-full object-cover rounded-full" // Updated for better responsiveness
+              className="w-full h-full object-cover rounded-full" 
             />
           </div>
         </div>
@@ -311,4 +311,5 @@ export default function Home() {
     </>
   );
 }
+
 
